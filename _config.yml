@@ -1,0 +1,11 @@
+# Site settings
+title: Millerson Brew
+email: stian.moellersen@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hjemmesiden til hjemmebrygger Stian Møllersen. Inneholder informasjon om brygg,
+  collabs og bryggeprosess.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://millersonbrew.no" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
