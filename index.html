@@ -1,19 +1,25 @@
 ---
 layout: default
 ---
-
+<section>
+  <p>
+    Velkommen til Millerson Brew, et hobby/hjemme-bryggeri drevet av Stian Møllersen.
+  </p>
+</section>
 <section>
   <header>
     <h1>Brygg</h1>
   </header>
+  <p>
+    Hvert øl har en beskrivelse, en oppskrift og noen nøkkeltall.
+  </p>
   <ul class="post-list">
-    {% assign brygg = site.brygg | sort: 'name' | reverse %}
-    {% for post in brygg %}
+    {% assign brygg = site.brygg | sort: 'brewdate' | reverse %}
+    {% for b in brygg %}
       <li>
         <article>
           <header>
-            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2><a href="{{ b.url | prepend: site.baseurl }}">{{ b.title }}</a></h2>
           </header>
         </article>
       </li>

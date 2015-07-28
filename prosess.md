@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 header: Prosess
 title: Prosess
 permalink: /prosess/

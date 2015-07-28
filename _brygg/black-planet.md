@@ -1,24 +1,23 @@
 ---
-layout: page
+layout: brygg
+batch: 2
 title:  "Black Planet"
-date:   2015-04-07
-categories: brygg
-batchnr: 2
+brewdate:   2015-03-21
+fermentationtime: 17
+fermentationtemp: 20
+abv: 6.7
+ibu: 71.3
+volume: 17.75
+style: "Cascadian Dark Ale / Black IPA"
+og: 1.068
+fg:
 ---
-# Black Planet
+# Beskrivelse
 
 Batch nummer 2, let's get crazy! En Cascadian Dark Ale, også kjent som Black IPA. Oppskriften er basert på [Black Ipanema](http://www.bryggselv.no/products/black-ipanema--vinner-pf-2012-nm-i-hjemmebrygging2), med noen justeringer for å passe med tilgjengelige råvarer og batch-størrelse. Har alltid vært glad i Black IPA stilen, kombinasjonen av mørk malt og masse humle, så da måtte jeg nesten bare gønne på.
 
-## Nøkkeltall
-
-- ABV: ~6.7%*
-- IBU: 71.3
-- Volum: 17.75l
-- Type: Cascadian Dark Ale / Black IPA
-- Bryggedato: 21. mars, 2015
-
-\* klarte å knuse hydrometeret mitt, så ingen FG måling denne gangen heller
-
+Klarte å knuse hydrometeret mitt under tappinga, så ingen FG måling denne gangen
+heller.
 
 ## Oppskrift
 

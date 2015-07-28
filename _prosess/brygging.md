@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Brygging
 permalink: /prosess/brygging.html
 ---

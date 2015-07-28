@@ -1,23 +1,21 @@
 ---
-layout: page
+layout: brygg
+batch: 1
 title:  "Can I Play With Beer?"
-date:   2015-02-03
-categories: brygg
-batchnr: 1
+brewdate:   2015-01-17
+fermentationtime: 17
+fermentationtemp: 20
+abv: 6.0
+ibu: 42.8
+volume: 18
+style: "American Pale Ale"
+og: 1.046
+fg:
 ---
-# Can I Play With Beer?
-
+## Beskrivelse
 Mitt første brygg. Det er en Amerikansk Pale Ale, med masse deilig Amarillo-humle. Oppskriften er basert på [Newfarm Sommer!](http://www.newfarmbrew.com/2012/05/batch-9-newfarm-sommer.html) av [Kenneth Nygård](http://www.newfarmbrew.com/), som også var med som veileder under bryggingen.
 
-## Nøkkeltall
-
-- ABV*: ~6,0%
-- IBU: ~42.8
-- Volum: 18l
-- Type: Amerikansk Pale Ale
-- Bryggedato: 17. januar, 2015
-
-\* fordi jeg glemte å måle FG etter gjæring blir dette kun estimater
+Fordi jeg glemte å måle FG etter gjæring er noen av nøkkeltallene kun estimater fra BeerSmith.
 
 ## Oppskrift
 

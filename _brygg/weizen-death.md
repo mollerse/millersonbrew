@@ -1,11 +1,18 @@
 ---
-layout: page
+layout: brygg
+batch: 3
 title:  "Weizen Death"
-date:   2015-05-16
-categories: brygg
-batchnr: 3
+brewdate:   2015-05-02
+fermentationtime: 14
+fermentationtemp: 20
+abv: 5.7
+ibu: 14.8
+volume: 17.5
+style: "Hefeweizen"
+og: 1.054
+fg: 1.011
 ---
-# Weizen Death
+# Beskrivelse
 
 Batch nr 3, første solo-brygg og siste brygg på mitt første kjøkken. Det ble brygget en tysk Hefeweizen, en hveteøl. Har igjen lånt oppskrift fra [Kenneth Nygård](www.newfarmbrew.com/2014/05/batch-40-newfarm-hefeweizen.html), en av hans beste øl etter min mening. Har tradisjonelt ikke vært så glad i hveteøl, men jeg tror jeg er på vei til å endre mening. Fin sommerøl.
 
