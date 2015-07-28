@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: page
 title:  "Can I Play With Beer?"
 date:   2015-02-03
 categories: brygg
+batchnr: 1
 ---
 # Can I Play With Beer?
 

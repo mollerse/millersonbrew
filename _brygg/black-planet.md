@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: page
 title:  "Black Planet"
 date:   2015-04-07
 categories: brygg
+batchnr: 2
 ---
 # Black Planet
 

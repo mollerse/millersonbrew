@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: page
 title:  "Weizen Death"
 date:   2015-05-16
 categories: brygg
+batchnr: 3
 ---
 # Weizen Death
 

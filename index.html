@@ -2,20 +2,21 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Brygg</h1>
-
+<section>
+  <header>
+    <h1>Brygg</h1>
+  </header>
   <ul class="post-list">
-    {% for post in site.brygg %}
+    {% assign brygg = site.brygg | sort: 'name' | reverse %}
+    {% for post in brygg %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <article>
+          <header>
+            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </header>
+        </article>
       </li>
     {% endfor %}
   </ul>
-
-</div>
+</section>
