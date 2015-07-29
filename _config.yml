@@ -13,6 +13,7 @@ markdown: kramdown
 collections:
   brygg:
     output: true
+    permalink: /brygg/:title.html
   prosess:
     output: true
   etiketter:
