@@ -1,0 +1,33 @@
+---
+layout: etikett
+batch: 3
+---
+{% assign brygg = site.brygg | where:"batch",{{page.batch}} | first %}
+<div id="container">
+  <div id="nokkeltall">
+    <div>
+      <h3>Info</h3>
+      <ul>
+        <li>ABV: {% if brygg.abv %}{{ brygg.abv }}%{% else %}N/A{% endif %}</li>
+        <li>IBU: {% if brygg.ibu %}{{ brygg.ibu }}{% else %}N/A{% endif %}</li>
+        <li>Brygget: {% if brygg.brewdate %}{{ brygg.brewdate | date: "%-d. %b, %Y" }}{% else %}N/A{% endif %}</li>
+        <li>Gjæring: {% if brygg.fermentationtime %}{{ brygg.fermentationtime }} d, {{ brygg.fermentationtemp }}C{% else %}N/A{% endif %}</li>
+      </ul>
+    </div>
+    <div class="ingredienser">
+      <h3>Ingredienser</h3>
+      <p>Vann, kornmalt ({{brygg.malts | join: ", "}}), humle ({{brygg.hops | join: ", "}}) og gjær ({{brygg.yeast | join: ", "}}).</p>
+    </div>
+  </div>
+  <div id="beskrivelse">
+    <h2>Beskrivelse</h2>
+    <p>{{ brygg.short_desc }}</p>
+    <p>Nytes til {{ brygg.homage }}.</p>
+    <p>Server på {{ brygg.serve_temp }}C.</p>
+  </div>
+  <div id="logo">
+    <h1 id="bryggeri">{{site.title}}</h1>
+    {% include_relative assets/logo.svg %}
+    <h1 id="ol">{{brygg.title}}</h1>
+  </div>
+</div>

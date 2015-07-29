@@ -15,5 +15,7 @@ collections:
     output: true
   prosess:
     output: true
+  etiketter:
+    output: true
 
-exclude: [notater, etiketter]
+exclude: [notater]

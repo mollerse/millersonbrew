@@ -9,7 +9,7 @@ layout: default
     <h2>Nøkkeltall</h2>
     <ul>
       <li>Batch: {% if page.batch %}{{ page.batch }}{% else %}N/A{% endif %}</li>
-      <li>Bryggedato: {% if page.brewdate %}{{ page.brewdate | date: "%b %-d, %Y" }}{% else %}N/A{% endif %}</li>
+      <li>Bryggedato: {% if page.brewdate %}{{ page.brewdate | date: "%-d. %b, %Y" }}{% else %}N/A{% endif %}</li>
       <li>ABV: {% if page.abv %}{{ page.abv }}%{% else %}N/A{% endif %}</li>
       <li>IBU: {% if page.ibu %}{{ page.ibu }}{% else %}N/A{% endif %}</li>
       <li>Volum: {% if page.volume %}{{ page.volume }}l{% else %}N/A{% endif %}</li>
