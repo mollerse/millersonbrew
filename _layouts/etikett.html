@@ -26,7 +26,10 @@ layout: etiketter
   </div>
   <div id="logo">
     <h1 id="bryggeri">{{site.title}}</h1>
-    {% include_relative assets/logo.svg %}
+    <svg>
+      <use xlink:href="#brand"></use>
+    </svg>
+
     <h1 id="ol">{{brygg.title}}</h1>
   </div>
 </div>
